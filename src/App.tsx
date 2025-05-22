@@ -28,11 +28,6 @@ function App() {
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
           <span style={{ fontSize: '1.25rem', fontWeight: 700, letterSpacing: '-0.03em', color: '#fff' }}>Meta Ad Fatigue</span>
         </div>
-        <nav style={{ display: 'flex', gap: '1.5rem', marginLeft: 'auto', marginRight: 'auto' }}>
-          {['Dashboard', 'Projects', 'Albums', 'Brand', 'Admin'].map(tab => (
-            <span key={tab}>{tab}</span>
-          ))}
-        </nav>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
           <button style={{ background: '#18181b', color: '#e4e4e7', padding: '0.5rem 1rem', borderRadius: '9999px', fontSize: '0.9rem', border: '1px solid #27272a' }}>Org ▼</button>
           <div className="profile-circle">U</div>
